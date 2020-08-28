@@ -1,0 +1,4 @@
+// https://thomlom.dev/setup-eslint-prettier-react/
+{
+  "plugins": ["babel-plugin-styled-components"]
+}
