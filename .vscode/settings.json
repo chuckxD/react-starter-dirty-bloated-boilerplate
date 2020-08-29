@@ -33,7 +33,7 @@
   // Enables parameter hints
   "editor.parameterHints": true,
   // Controls if the editor should automatically close brackets after opening them
-  "editor.autoClosingBrackets": false,
+  // "editor.autoClosingBrackets": false,
   // Controls if the editor should automatically format the line after typing
   "editor.formatOnType": false,
   // Controls if suggestions should automatically show up when typing trigger characters

@@ -1,19 +1,24 @@
 {
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "env": {
     "commonjs": true,
     "es6": true,
     "node": true,
     "browser": true,
-    "jest": true,
+    "jest": true
   },
-  "plugins": ["import"],
+  "plugins": ["import", "react"],
   "extends": [
     "plugin:prettier/recommended",
     "eslint:recommended",
     "plugin:react/recommended"
   ],
   "parserOptions": {
-    "ecmaVersion": 2018,
+    "ecmaVersion": 6,
     "sourceType": "module"
   },
   "rules": {
