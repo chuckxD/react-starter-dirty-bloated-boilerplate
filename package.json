@@ -37,7 +37,7 @@
     "styleguide:build": "styleguidist build",
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "mock-server": "node .mock-server/run.js",
-    "lint:css":"stylelint './src/**/*.js'"
+    "lint:css": "stylelint './src/**/*.js'"
   },
   "eslintConfig": {
     "extends": [
@@ -75,6 +75,7 @@
     "cross-env": "^7.0.2",
     "dotenv": "^8.2.0",
     "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.2.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.20.6",

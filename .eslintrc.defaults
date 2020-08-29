@@ -2,23 +2,17 @@
   "env": {
     "commonjs": true,
     "es6": true,
-    "node": true,
-    "browser": true,
-    "jest": true,
+    "node": true
   },
-  "plugins": ["import"],
   "extends": [
     "plugin:prettier/recommended",
     "eslint:recommended",
     "plugin:react/recommended"
   ],
   "parserOptions": {
-    "ecmaVersion": 2018,
-    "sourceType": "module"
+    "ecmaVersion": 2018
   },
   "rules": {
-    "no-console": "warn",
-    "no-eval": "error",
-    "import/first": "warn"
+    "no-console": "warn"
   }
 }
